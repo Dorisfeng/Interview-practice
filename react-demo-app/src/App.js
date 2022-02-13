@@ -6,6 +6,7 @@ import {
   UseRefDemo,
   ForwardRefDemo,
   CustomHook,
+  CustomHooks,
 } from "./demo";
 import "./App.css";
 
@@ -18,7 +19,8 @@ function App() {
       {/* <UseLayoutEffectDemo /> */}
       {/* <UseRefDemo /> */}
       {/* <ForwardRefDemo /> */}
-      <CustomHook />
+      {/* <CustomHook /> */}
+      <CustomHooks />
     </div>
   );
 }
