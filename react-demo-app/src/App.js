@@ -1,4 +1,12 @@
-import { Hooks, ThisBind, UseStateDemo } from "./demo";
+import {
+  Hooks,
+  ThisBind,
+  UseStateDemo,
+  UseLayoutEffectDemo,
+  UseRefDemo,
+  ForwardRefDemo,
+  CustomHook,
+} from "./demo";
 import "./App.css";
 
 function App() {
@@ -6,7 +14,11 @@ function App() {
     <div className="App">
       {/* <Hooks />
       <ThisBind /> */}
-      <UseStateDemo />
+      {/* <UseStateDemo /> */}
+      {/* <UseLayoutEffectDemo /> */}
+      {/* <UseRefDemo /> */}
+      {/* <ForwardRefDemo /> */}
+      <CustomHook />
     </div>
   );
 }

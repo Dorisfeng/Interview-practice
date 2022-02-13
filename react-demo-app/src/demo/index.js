@@ -1,4 +1,17 @@
 import Hooks from "./hooks";
 import ThisBind from "./this-bind";
 import UseStateDemo from "./useState-demo";
-export { Hooks, ThisBind, UseStateDemo };
+import UseLayoutEffectDemo from "./useLayout-demo";
+import UseRefDemo from "./useRef-demo";
+import ForwardRefDemo from "./forwardRef-demo";
+import CustomHook from "./custom-hook";
+
+export {
+  Hooks,
+  ThisBind,
+  UseStateDemo,
+  UseLayoutEffectDemo,
+  UseRefDemo,
+  ForwardRefDemo,
+  CustomHook,
+};
