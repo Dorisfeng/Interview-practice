@@ -5,6 +5,11 @@ import {
   UseStateDemo,
   UseEffectDemo,
   UseLayoutDemo,
+  UseLayoutEffectDemo,
+  UseRefDemo,
+  ForwardRefDemo,
+  CustomHook,
+  CustomHooks,
 } from "./demo";
 import "./App.css";
 function App() {
@@ -22,7 +27,14 @@ function App() {
         +++
       </button>
       {total % 2 && <UseEffectDemo />} */}
-      <UseLayoutDemo />
+      {/* <UseLayoutDemo />
+      <ThisBind /> */}
+      {/* <UseStateDemo /> */}
+      {/* <UseLayoutEffectDemo /> */}
+      {/* <UseRefDemo /> */}
+      {/* <ForwardRefDemo /> */}
+      {/* <CustomHook /> */}
+      <CustomHooks />
     </div>
   );
 }
