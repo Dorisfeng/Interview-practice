@@ -1,3 +1,3 @@
-import Demo from "./useDebounce";
+import Demo from "./useThrottle";
 
 export default Demo;
