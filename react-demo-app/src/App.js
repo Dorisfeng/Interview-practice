@@ -10,6 +10,7 @@ import {
   ForwardRefDemo,
   CustomHook,
   CustomHooks,
+  AutoComplete,
 } from "./demo";
 import "./App.css";
 function App() {
@@ -35,6 +36,7 @@ function App() {
       {/* <ForwardRefDemo /> */}
       {/* <CustomHook /> */}
       <CustomHooks />
+      {/* <AutoComplete /> */}
     </div>
   );
 }

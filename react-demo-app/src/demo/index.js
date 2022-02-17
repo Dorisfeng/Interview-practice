@@ -8,6 +8,7 @@ import UseRefDemo from "./useRef-demo";
 import ForwardRefDemo from "./forwardRef-demo";
 import CustomHook from "./custom-hook";
 import CustomHooks from "./custom-hooks";
+import AutoComplete from "./autoComplete";
 
 export {
   Hooks,
@@ -20,4 +21,5 @@ export {
   CustomHooks,
   UseEffectDemo,
   UseLayoutDemo,
+  AutoComplete,
 };
