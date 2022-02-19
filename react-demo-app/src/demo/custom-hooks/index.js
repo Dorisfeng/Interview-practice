@@ -1,3 +1,3 @@
-import Demo from "./useThrottle";
+import Demo from "./useScroll";
 
 export default Demo;
