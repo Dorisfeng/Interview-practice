@@ -32,16 +32,17 @@ const useScroll = (scrollRef) => {
 //   return pos;
 // };
 
-const useScrollStyle = (scrollRef) => {
-  useEffect(() => {
-    scrollRef.current.style = "border:3px solid #000";
-  });
-  return;
-};
+// const useScrollStyle = (scrollRef) => {
+//   useEffect(() => {
+//     scrollRef.current.style =
+//       scrollRef.current.style + " border:3px solid #000";
+//   });
+//   return;
+// };
 
 const Demo = () => {
   const scrollRef = useRef(null);
-  useScrollStyle(scrollRef);
+  // useScrollStyle(scrollRef);
 
   return (
     <div>

@@ -11,6 +11,7 @@ import {
   CustomHook,
   CustomHooks,
   AutoComplete,
+  Performance,
 } from "./demo";
 import "./App.css";
 function App() {
@@ -35,8 +36,9 @@ function App() {
       {/* <UseRefDemo /> */}
       {/* <ForwardRefDemo /> */}
       {/* <CustomHook /> */}
-      <CustomHooks />
+      {/* <CustomHooks /> */}
       {/* <AutoComplete /> */}
+      <Performance />
     </div>
   );
 }

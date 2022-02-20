@@ -39,5 +39,65 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- <button
+      onclick="console.log(('内联事件处理1',function(){'use strict'; return this})());"
+    >
+      内联事件处理1
+    </button> -->
+    <!-- 警告窗口中的字符为undefined -->
+    <!-- <button onclick="'use strict'; console.log('内联事件处理2',this);">
+      内联事件处理2
+    </button> -->
+    <!-- 警告窗口中的字符为button -->
   </body>
+  <script>
+    // "use strict";
+    // const aa = () => {
+    //   console.log(this);
+    // };
+    // function bb() {
+    //   console.log("bb", this);
+    // }
+    // aa();
+    // // bb();
+    // let btn = document.getElementById("root");
+    // btn.onclick = function (e) {
+    //   console.log("this", this);
+    //   console.log("e.target", e.target); // 事件触发的元素。
+    //   console.log("e.currentTarget", e.currentTarget); //事件绑定的元素
+    // };
+
+    // // // 被调用时，将关联的元素变成蓝色
+    // // function bluify(e) {
+    // //   console.log(e.currentTarget);
+    // //   console.log("currentTarget", this === e.currentTarget); // 总是 true
+
+    // //   // 当 currentTarget 和 target 是同一个对象时为 true
+    // //   console.log(e.target);
+    // //   console.log("target", this === e.target);
+    // //   this.style.backgroundColor = "#A5D9F3";
+    // // }
+
+    // // // 获取文档中的所有元素的列表
+    // // var element = document.getElementById("root");
+
+    // // // 将bluify作为元素的点击监听函数，当元素被点击时，就会变成蓝色
+    // // // for (var i = 0; i < elements.length; i++) {
+    // // element.addEventListener("click", bluify, false);
+    // // // }
+    // "use strict";
+    // let obj = {
+    //   sum(a, b) {
+    //     console.log(this);
+    //     return a + b;
+    //   },
+    // };
+
+    // /* 严格模式 */
+
+    // // 执行 sum 函数的 apply、bind 方法，打印的 this 同下
+    // obj.sum.call(); // 打印 undefined
+    // obj.sum.call(undefined, 1, 2); // 打印 undefined
+    // obj.sum.call(null, 1, 2); // 打印 null
+  </script>
 </html>

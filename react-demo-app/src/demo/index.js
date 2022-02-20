@@ -9,6 +9,7 @@ import ForwardRefDemo from "./forwardRef-demo";
 import CustomHook from "./custom-hook";
 import CustomHooks from "./custom-hooks";
 import AutoComplete from "./autoComplete";
+import Performance from "./performance";
 
 export {
   Hooks,
@@ -22,4 +23,5 @@ export {
   UseEffectDemo,
   UseLayoutDemo,
   AutoComplete,
+  Performance,
 };
