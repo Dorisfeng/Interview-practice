@@ -1,2 +1,2 @@
-import Demo from "./clear";
+import Demo from "./lazy";
 export default Demo;
