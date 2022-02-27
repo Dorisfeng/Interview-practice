@@ -10,6 +10,7 @@ import CustomHook from "./custom-hook";
 import CustomHooks from "./custom-hooks";
 import AutoComplete from "./autoComplete";
 import Performance from "./performance";
+import Copy from "./copy";
 
 export {
   Hooks,
@@ -24,4 +25,5 @@ export {
   UseLayoutDemo,
   AutoComplete,
   Performance,
+  Copy,
 };

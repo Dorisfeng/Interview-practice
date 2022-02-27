@@ -12,6 +12,7 @@ import {
   CustomHooks,
   AutoComplete,
   Performance,
+  Copy,
 } from "./demo";
 import "./App.css";
 function App() {
@@ -38,7 +39,8 @@ function App() {
       {/* <CustomHook /> */}
       {/* <CustomHooks /> */}
       {/* <AutoComplete /> */}
-      <Performance />
+      {/* <Performance /> */}
+      <Copy />
     </div>
   );
 }
