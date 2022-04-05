@@ -1,9 +1,11 @@
 export function fetchData() {
   let userPromise = fetchUser();
   let postsPromise = fetchPosts();
+  let numPromise = fetchNum();
   return {
     user: wrapPromise(userPromise),
     posts: wrapPromise(postsPromise),
+    num: wrapPromise(numPromise),
   };
 }
 
@@ -39,14 +41,9 @@ function wrapPromise(promise) {
 
 function fetchUser() {
   console.log("fetch user...");
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      console.log("fetched user");
-      resolve({
-        name: "Ringo Starr",
-      });
-    }, 1000);
-  });
+  return fetch("https://randomuser.me/api")
+    .then((x) => x.json())
+    .then((x) => x.results[0]);
 }
 
 function fetchPosts() {
@@ -69,5 +66,12 @@ function fetchPosts() {
         },
       ]);
     }, 1100);
+  });
+}
+function fetchNum() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(Math.random());
+    }, 1000);
   });
 }
