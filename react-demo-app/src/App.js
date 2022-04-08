@@ -13,6 +13,7 @@ import {
   AutoComplete,
   Performance,
   Copy,
+  CustomEventSys,
 } from "./demo";
 import "./App.css";
 function App() {
@@ -40,7 +41,8 @@ function App() {
       {/* <CustomHooks /> */}
       {/* <AutoComplete /> */}
       {/* <Performance /> */}
-      <Copy />
+      {/* <Copy /> */}
+      <CustomEventSys />
     </div>
   );
 }

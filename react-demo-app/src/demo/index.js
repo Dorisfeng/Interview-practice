@@ -11,6 +11,7 @@ import CustomHooks from "./custom-hooks";
 import AutoComplete from "./autoComplete";
 import Performance from "./performance";
 import Copy from "./copy";
+import CustomEventSys from "./custom-event-system";
 
 export {
   Hooks,
@@ -26,4 +27,5 @@ export {
   AutoComplete,
   Performance,
   Copy,
+  CustomEventSys,
 };
